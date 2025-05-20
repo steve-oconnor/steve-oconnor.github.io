@@ -1,0 +1,29 @@
+<header class="site-header">
+  <div class="header-inner">
+    
+    <a href="{{ '/' | relative_url }}" class="logo_link">{{ site.title }}</a>
+
+    <button class="c-nav-hamburger" id="hamburger-nav-btn" aria-expanded="false" aria-controls="main-nav" aria-haspopup="true">
+      <span class="u-a11y" id="hamburger-nav-open-close">Open</span>
+      <span class="c-nav-hamburger__line c-nav-hamburger__line--1" aria-hidden="true"></span>
+      <span class="c-nav-hamburger__text" id="hamburger-label">Menu</span>
+      <span class="c-nav-hamburger__line c-nav-hamburger__line--2" aria-hidden="true"></span>
+    </button>
+
+
+    <nav id="main-nav" class="main-nav" aria-label="Main menu">
+      <ul class="main-nav__list">
+        <li><a href="{{ '/case-studies/' | relative_url }}">Case Studies</a></li>
+        <li><a href="{{ '/writing/' | relative_url }}">Writing</a></li>
+        <li><a href="{{ '/resources/' | relative_url }}">Resources</a></li>
+        <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>            
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="nav-overlay" class="nav-overlay" hidden></div>
+
+  </div>
+
+</header>
+  

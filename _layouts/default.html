@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- Header -->
+  {% include header.html %}
+
+  <main>
+    {{ content }}
+    {% include contact.html %}
+  </main>
+
+  <!-- Footer -->
+  {% include footer.html %}
+
+  <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+
+</body>
+</html>
