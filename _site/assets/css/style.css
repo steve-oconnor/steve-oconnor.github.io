@@ -818,6 +818,8 @@ figcaption {
   border-radius: 0.2rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -951,8 +953,12 @@ figcaption {
   .logo-grid img {
     height: 76px;
     width: auto;
-    margin: 0.1rem;
+    margin: 0.5rem;
     filter: none;
+  }
+
+  .tags {
+    gap: 0.3rem;
   }
 }
 
