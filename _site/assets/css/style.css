@@ -8,22 +8,25 @@
   --text: #344C60;
   --accent: #007969;
   --accent-dark: #005f50;
-  --accent-bg: aquamarine;
+  --accent-bg: #7fffd4;
+  --header-hi: #f9e4c4;
   --card-bg: #f1faf5;
+  --border: #C8D6CF;
   --tag-bg: #f3c989;
   --tag-text: #5C3B00;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #202325;
-    --text: #e1e5e8;
-    --accent: #79ffe1;
+    --bg: #2A3D32;
+    --text: #E6EFEA;
+    --accent: #7FFFD4;
     --accent-dark: #50d0b4;
-    --accent-bg: #1d3a34;
-    --card-bg: #2d2f30;
-    --tag-bg: #664e00;
-    --tag-text: #f9d67a;
+    --accent-bg: #34695E;
+    --card-bg: #3C5747;
+    --border: #65706B;
+    --tag-bg: #664B23;
+    --tag-text: #F3C989;
   }
 }
 
@@ -64,7 +67,7 @@ h2 {
 }
 
 .highlight {
-  background: linear-gradient(transparent 60%, #f9e4c4 60%);
+  background: linear-gradient(transparent 60%, var(--header-hi) 60%);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone; /* for Safari */
   padding: 0 0.8rem 0 0.2rem;
@@ -122,9 +125,9 @@ blockquote {
     margin-block-end: 2rem;
     margin-inline-start: 0.5rem;
     margin-inline-end: 0.5rem;
-    border-left: 2px solid #ccc;
+    border-left: 2px solid var(--border);
     padding-left: 1rem;
-    border-right: 2px solid #ccc;
+    border-right: 2px solid var(--border);
     padding-right: 1rem;
 }
 
@@ -601,7 +604,7 @@ a:hover, a:focus {
 
   .main-nav__list li a:hover,
   .main-nav__list li a:focus {
-    background: none;
+    background: var(--accent-bg);
     color: var(--accent-dark);
     text-decoration: none;
   }
@@ -680,7 +683,7 @@ section p {
 
 hr {
   border: none;
-  border-top: 2px solid #C8D6CF;
+  border-top: 2px solid var(--border);
   margin: 0 -3rem 2rem;
 }
 
