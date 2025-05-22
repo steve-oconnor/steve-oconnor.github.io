@@ -4,9 +4,17 @@ title: Resources
 permalink: /resources/
 ---
 
-<section>
+<section class="intro-section">
+
   <h1>Resources</h1>
+
+  <div class="intro-wrapper">
   <p>This page collects links to articles, tools, and references I regularly recommend or return to. It’s a growing library of things I’ve found useful or insightful.</p>
+  </div>
+
+</section>
+
+<section>
 
   <h2><span class="highlight">Articles</span></h2>
   <ul class="resources-list">

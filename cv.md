@@ -4,10 +4,15 @@ title: CV
 permalink: /cv/
 ---
 
-<section>
+<section class="intro-section">
   <h1>Steve O’Connor CV</h1>
-  <p class="intro">Senior UX Designer with 15+ years of experience creating accessible, user-focused digital services across public and private sectors.</p>
-  <p>Passionate about crafting intuitive, inclusive, and user-centred digital experiences. Skilled in prototyping, usability testing, user research, journey mapping, and the development of accessible solutions in Agile environments. Experienced with design systems and cross-functional collaboration, with a strong foundation in interaction design, branding, and service design. Committed to continuous learning, mentoring, and delivering engaging, user-driven outcomes.</p>
+  <div class="intro-wrapper">
+  <p>Senior UX Designer with 15+ years of experience creating accessible, user-focused digital services across public and private sectors.</p>
+  </div>
+  <p>Passionate about crafting intuitive, inclusive, and user-centred digital experiences.</p>
+  <p>Skilled in prototyping, usability testing, user research, journey mapping, and the development of accessible solutions in Agile environments.</p>
+  <p>Experienced with design systems and cross-functional collaboration, with a strong foundation in interaction design, branding, and service design.</p>
+  <p>Committed to continuous learning, mentoring, and delivering engaging, user-driven outcomes.</p>
 </section>
 
 <section>
@@ -50,13 +55,6 @@ permalink: /cv/
     <li>Contributed to cross-gov initiatives, including design ops and the GDS Design System.</li>
   </ul>
 
-  <h3>CamCreatives, Director and Community Organiser</h3>
-  <p class="dates">2006–present</p>
-  <ul class="content-list">
-    <li>Organise creative meetups, events for creative minds in Cambridge</li>
-    <li>Support local collaboration, mentoring, and creative careers</li>
-  </ul>
-
   <h3>Lead Designer, Airsource</h3>
   <p class="dates">(Sep 2010 — Mar 2017, Cambridge, UK)</p>
   <ul class="content-list">
@@ -65,24 +63,31 @@ permalink: /cv/
     <li>Developed brand and design system guidelines for mobile and digital products.</li>
   </ul>
 
-  <h3>Graphic and Web Design Consultant, stevethedesigner</h3>
-  <p class="dates">(Nov 2008 — Sep 2010, Cambridge, UK)</p>
-  <p>Delivered end-to-end branding, UX, and web design projects for local and international businesses.</p>
+   <h3>Director and Community Organiser, CamCreatives</h3>
+  <p class="dates">2006–present</p>
+  <ul class="content-list">
+    <li>Organise creative meetups, events for creative minds in Cambridge</li>
+    <li>Support local collaboration, mentoring, and creative careers</li>
+  </ul>
 
   <h3>Earlier roles</h3>
   <ul class="content-list">
+    <li>Graphic and Web Design Consultant, stevethedesigner</li>
     <li>Studio print and web designer at Cream Group Ltd.</li>
     <li>Graphic and web design consultant at Guido Design</li>
     <li>Graphic Designer at Logotron Ltd.</li>
     <li>2D/3D Software trainer and design manager at Vellum Software UK Ltd.</li>
   </ul>
+
 </section>
 
 <section>
+
   <h2><span class="highlight">Education & Certifications</span></h2>
   <ul class="content-list">
     <li>BA Hons in Graphic Design — University of Central Lancashire (Unfinished)</li>
     <li>B-TEC Graphic Design - Southport Techical College (Distinction)</li>
   </ul>
+
 </section>
 
