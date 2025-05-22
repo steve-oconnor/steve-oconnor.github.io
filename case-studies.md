@@ -4,7 +4,7 @@ title: Case Studies
 permalink: /case-studies/
 ---
 
-<section class="intro-section">
+<section id="intro-section">
   <h1>Case Studies</h1>
   <div class="intro-wrapper">
   <p>A selection of projects I've worked on, showing how I approach user-centred, accessible design.</p>

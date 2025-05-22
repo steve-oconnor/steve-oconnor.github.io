@@ -69,6 +69,10 @@ h2 {
   line-height: 1.25;
 }
 
+article h2 {
+  margin: 3rem 0 1rem;
+}
+
 .highlight {
   background: linear-gradient(transparent 60%, #f9e4c4 60%);
   box-decoration-break: clone;
@@ -127,7 +131,6 @@ blockquote {
 }
 
 p + ul,
-p + h2,
 ul + h2 {
   margin-top: 1rem;
 }
@@ -625,7 +628,7 @@ main {
   padding: 0;
 }
 
-section {
+section, article header {
   margin: 4rem 0;
 }
 
@@ -651,6 +654,10 @@ hr {
   border: none;
   border-top: 2px solid var(--border);
   margin: 0 -3rem 0;
+}
+
+.page-nav {
+  margin: 3rem 0;
 }
 
 /* LOGOS */
@@ -829,7 +836,12 @@ figcaption {
 
   body {
     font-size: 1.125rem;
-    padding: 0 0.55rem;
+    padding: 0 2rem;
+  }
+
+  h1.hello {
+    font-size: 3.9375rem;
+    margin: 0 0 3rem;
   }
 
   .site-nav {
@@ -856,10 +868,6 @@ figcaption {
     padding: 0.5rem 0;
   }
 
-  main {
-    padding: 0 0.55rem;
-  }
-
   .card {
     padding: 1rem 1.25rem 1rem;
   }
@@ -872,13 +880,42 @@ figcaption {
   section {
     margin-: 3rem 0;
   }
+  .logo-grid {
+    justify-content: flex-start;
+  }
 
+  .site-footer {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 480px) {
 
   body {
     font-size: 1.125rem;
+    padding: 0 1.25rem;
+  }
+
+  h1, h1.hello {
+    font-size: 2.1875rem;
+    margin: 0 0 2rem;
+  }
+
+  header h1 {
+    margin: 0 0 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    margin: 1rem 0 2rem;
+  }
+
+  h3 {
+    font-size: 1.4375rem;
+  }
+
+  .intro-wrapper p, .card p {
+    font-size: 1.25rem;
   }
 
   .logo-grid img {
@@ -890,6 +927,22 @@ figcaption {
 
   .tags {
     gap: 0.3rem;
+  }
+
+  section, article header {
+    margin: 2.5rem 0;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    font-size: 1.25rem;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-links a {
+    display: flex;
+    flex-direction: row;
   }
 }
 

@@ -37,7 +37,7 @@ tags:
 
   <p>As someone who champions Figma at work, I’d planned to watch it anyway — but like many, I saw the headlines on social, caught a few hot takes (and shared one of my own), and started forming an opinion before doing the proper legwork. So I sat down, watched the whole keynote, made notes, and here we are: a slightly more measured take, but with the same core concern lingering underneath.</p>
 
-  <h2 class="highlight">There’s a lot to like</h2>
+  <h2><span class="highlight">There’s a lot to like</span></h2>
 
   <p>First, let’s give credit where it’s due.</p>
 
@@ -49,7 +49,7 @@ tags:
 
   <p>And the <strong>Content Seat</strong>? Love it. My content design colleagues often apologise for breaking layouts when they make edits in Figma. Now they don’t have to. It’s a small gesture, but one that signals a growing respect for content roles in design tooling — and that matters.</p>
 
-  <h2 class="highlight">But then… Figma Sites</h2>
+  <h2><span class="highlight">But then… Figma Sites</span></h2>
 
   <p>This is where the unease sets in.</p>
 
@@ -68,7 +68,7 @@ tags:
 
   <p>Now, to Figma’s credit: it’s still in beta. And perhaps we’re not meant to take this as “production ready”. But if that’s the case, it needs clearer boundaries. A walled garden. A big “not suitable for launch” banner. Otherwise, we’re polluting the web with auto-generated inaccessibility — and that’s not a good look.</p>
 
-  <h2 class="highlight">The Draw dilemma</h2>
+  <h2><span class="highlight">The Draw dilemma</span></h2>
 
   <p>Initially, I rolled my eyes at <strong>Figma Draw</strong>. Do we really need sketching tools in a UI design platform? But watching the demo, I’ll admit — it’s well implemented. The smoothing, the shape recognition, the blending into existing tools — it’s all very slick.</p>
 
@@ -76,7 +76,7 @@ tags:
 
   <p>That said, viewed as part of a broader move — with Buzz, Make, and Sites — it’s clear that Figma is becoming a platform with multiple entry points: a bigger toolkit with different views for different kinds of creators. The Content Seat supports that idea. Maybe we’ll see more specialised “seats” emerge over time.</p>
 
-  <h2 class="highlight">So what now?</h2>
+  <h2><span class="highlight">So what now?</span></h2>
 
   <p>Config 2025 was a huge update. And to be honest, I’m still digesting it. There’s plenty to like. Plenty to explore. And also — plenty to worry about.</p>
 
@@ -92,6 +92,6 @@ tags:
 
 </article>
 
-<nav aria-label="Page navigation">
+<nav class="page-nav" aria-label="Page navigation">
     <p><a href="/writing" class="button--secondary">← Back to Writing</a></p>
 </nav>
