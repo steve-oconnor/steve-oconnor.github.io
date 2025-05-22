@@ -33,6 +33,11 @@
     --tag-text: #F3C989;
     --text: #E6EFEA;
   }
+
+  .logo-grid img {
+    filter: invert(100%) brightness(200%);
+  }
+
 }
 
 body {
@@ -74,7 +79,7 @@ article h2 {
 }
 
 .highlight {
-  background: linear-gradient(transparent 60%, #f9e4c4 60%);
+  background: var(--header-hi);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   padding: 0 0.8rem 0 0.2rem;
