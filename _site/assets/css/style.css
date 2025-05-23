@@ -23,23 +23,33 @@
     --accent: #7FFFD4;
     --accent-dark: #50d0b4;
     --accent-bg: #34695E;
-    --bg: #2A3D32;
-    --border: #65706B;
-    --card-bg: #3C5747;
+    --bg: #091F15;
+    --border: #223A2F;
+    --card-bg: #10261C;
     --drop-shadow: #1a211d;
-    --header-hi: #614D2F;
+    --header-hi: #5c5c2e;
     --note-bg: #4f695a;
-    --tag-bg: #664B23;
-    --tag-text: #F3C989;
-    --text: #E6EFEA;
+    --tag-bg: #5c5c2e;
+    --tag-text: #DBDB6E;
+    --text: #9EB6A9;
   }
+
+  .light-only {
+    display: none !important;
+  }
+  
+  .dark-only {
+    display: block !important;
+  }
+
+
 }
 
 body {
   background-color: var(--bg);
   color: var(--text);
   font-family: 'Atkinson Hyperlegible Next', sans-serif;
-  line-height: 1.45;
+  line-height: 1.5;
   font-size: 1.25rem;
   margin: 0;
   padding: 0 2rem;
@@ -74,7 +84,7 @@ article h2 {
 }
 
 .highlight {
-  background: linear-gradient(transparent 60%, #f9e4c4 60%);
+  background: linear-gradient(transparent 60%, var(--header-hi) 60%);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   padding: 0 0.8rem 0 0.2rem;
@@ -241,6 +251,14 @@ a:hover, a:focus {
   color: var(--accent-dark);
   background-color: var(--accent-bg);
   text-decoration: none;
+}
+
+.light-only {
+  display: block;
+}
+
+.dark-only {
+  display: none;
 }
 
 
@@ -830,6 +848,10 @@ figcaption {
     max-width: 180px;
     margin-top: 1rem;
   }
+  
+  hr {
+    margin: 0 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -919,9 +941,9 @@ figcaption {
   }
 
   .logo-grid img {
-    height: 76px;
+    height: 74px;
     width: auto;
-    margin: 0.5rem;
+    margin: 0.25rem;
     filter: none;
   }
 
