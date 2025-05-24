@@ -7,12 +7,10 @@ permalink: /cv/
 <section class="intro-section">
   <h1>Steve O’Connor CV</h1>
   <div class="intro-wrapper">
-  <p>Senior UX Designer with 15+ years of experience creating accessible, user-focused digital services across public and private sectors.</p>
-  </div>
-  <p>Passionate about crafting intuitive, inclusive, and user-centred digital experiences.</p>
-  <p>Skilled in prototyping, usability testing, user research, journey mapping, and the development of accessible solutions in Agile environments.</p>
-  <p>Experienced with design systems and cross-functional collaboration, with a strong foundation in interaction design, branding, and service design.</p>
-  <p>Committed to continuous learning, mentoring, and delivering engaging, user-driven outcomes.</p>
+  <p>Senior UX Designer with a thoughtful, user-first approach to crafting inclusive, intuitive digital services.</p>
+  <p>Experienced in accessible design (WCAG/ARIA), design systems, and cross-functional collaboration within Agile teams.</p>
+  <p>Skilled in prototyping, user research, journey mapping, and usability testing—with a grounding in interaction design, branding, and service design.</p>
+  <p>Committed to continuous learning, mentoring others, and creating work that genuinely improves people’s experience.</p>
 </section>
 
 <section>
@@ -90,4 +88,33 @@ permalink: /cv/
   </ul>
 
 </section>
+
+<section>
+
+  <h2><span class="highlight">What others say</span></h2>
+
+  <div class="testimonials">
+    <blockquote>
+      <p>“Steve is one of the best UX designers I’ve had the pleasure of working with. He’s got a deep understanding of interaction design, always puts users first, and makes space for content design from day one.”</p>
+      <footer>— <cite>Ivy Halstead-Dawber, Senior Content Designer, DfE</cite></footer>
+    </blockquote>
+
+    <blockquote>
+      <p>“Steve leads with values of fairness and accessibility. He brings deep experience, great instincts, and a knack for gently guiding teams toward better choices—without ever being preachy.”</p>
+      <footer>— <cite>Francis Rowland, Service Design Lead, Nexer Digital</cite></footer>
+    </blockquote>
+
+    <blockquote>
+      <p>“A dependable, thoughtful colleague and the steady heart of CamCreatives. Steve’s grown into a confident presenter and trusted organiser—with a great sense of humour too.”</p>
+      <footer>— <cite>Paul Smith, Founder, CamCreatives CIC</cite></footer>
+    </blockquote>
+
+    <blockquote>
+      <p>“Steve brought top-tier prototyping and design skills to our Alpha phase, while keeping things grounded in GDS patterns, user needs, and stakeholder reality. A real asset to the team.”</p>
+      <footer>— <cite>James Cheetham, Product Manager, DfE</cite></footer>
+    </blockquote>
+  </div>
+
+</section>
+
 

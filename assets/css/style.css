@@ -16,6 +16,7 @@
   --tag-bg: #f9e4c4;
   --tag-text: #644b20;
   --text: #344C60;
+  --text-light: #257A4A;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,7 +32,8 @@
     --note-bg: #4f695a;
     --tag-bg: #5c5c2e;
     --tag-text: #DBDB6E;
-    --text: #9EB6A9;
+    --text: #BCD9C9;
+    --text-light: #5D8F73;
   }
 
   .light-only {
@@ -129,16 +131,37 @@ small {
   font-weight: 400;
 }
 
-blockquote {
-    margin-block-start: 0;
-    margin-block-end: 2rem;
-    margin-inline-start: 0.5rem;
-    margin-inline-end: 0.5rem;
-    border-left: 2px solid var(--border);
-    padding-left: 1rem;
-    border-right: 2px solid var(--border);
-    padding-right: 1rem;
+.testimonials {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
 }
+
+.testimonials blockquote {
+  border-top: none;
+  border-bottom: none;
+  border-left: 2px solid var(--border);
+  margin: 0;
+  padding: 1rem 1.5rem 1.5rem;
+  border-radius: 0;
+  background-color: rgba(184, 210, 196, 0.2);
+}
+
+.testimonials p {
+  margin-bottom: 0.5rem;
+}
+
+.testimonials footer {
+  font-style: normal;
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.testimonials cite {
+  font-style: normal;
+}
+
+
 
 p + ul,
 ul + h2 {
@@ -782,12 +805,12 @@ figcaption {
   display: inline-block;
   background-color: var(--tag-bg);
   color: var(--tag-text);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
   padding: 0.3em 0.75em;
   border-radius: 0.2rem;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   margin-top: 0;
   margin-bottom: 0;
 }
