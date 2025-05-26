@@ -24,14 +24,16 @@ tags:
 
   <figure>
       <img src="/assets/img/config_global_banner.png" alt="Banner image for Config Global. Figma's conference for people who build products. May 6-8, 2025. In-person & Virtual.">
-
   </figure>
 
   <p class="intro">I have a confession to make. I reacted to the Figma Config news before I’d actually watched the keynote.</p>
 
-  <blockquote>
-    <p><strong>“These updates feel showy, not useful. Something that might appeal to certain designers, but not good UI and UX designers.”</strong> – Me (on LinkedIn)</p>
-  </blockquote>
+  <div class="inline-quote">
+    <blockquote>
+      <p>“These updates feel showy, not useful. Something that might appeal to certain designers, but not good UI and UX designers.”</p> 
+      <footer>— <cite>Me (on LinkedIn)</cite></footer>
+    </blockquote>
+  </div>
 
   <p>Yes, I know. I should know better.</p>
 
@@ -43,9 +45,24 @@ tags:
 
   <p>The new <strong>Grid</strong> updates are excellent — the ability to span cells and use grid within auto layout is exactly the kind of quality-of-life improvement that makes interface design faster, more consistent, and frankly less annoying. Giorgio’s description of layout as “a gravitational force... that is always there to make sure things stay in place” stuck with me. That’s what good layout tools should feel like: invisible until you need them, then quietly supportive.</p>
 
+  <figure>
+      <img src="/assets/img/config-demo-grid.jpg" alt="Giorgio Caviglia demonstrating Figma Grid">
+      <figcaption>Giorgio Caviglia demonstrating Figma Grid</figcaption>
+  </figure>
+
   <p><strong>Figma Make</strong> — yes, it’s an LLM feature, and yes, that’s a loaded space — but it looks useful. I’m genuinely curious to explore what it can do, and how much of the “clever faff” it can absorb without getting in the way of actual thinking. (Also, minor note: I really liked Holly Li’s shirt.)</p>
 
-  <p><strong>Figma Buzz</strong> is Canva-ish, but in a way that makes sense. It lets visual designers create controlled templates with data injection (the CSV link is <em>chef’s kiss</em>), and I can already imagine the time saved for social teams.</p>
+  <figure>
+      <img src="/assets/img/config-demo-make.jpg" alt="Holly Li demonstrating Figma Make.">
+      <figcaption>Holly Li demonstrating Figma Make</figcaption>
+  </figure>
+
+  <p><strong>Figma Buzz</strong> is Canva-ish, but in a way that makes sense. It lets visual designers create controlled templates with data injection (the CSV link is a really useful addition), and I can already imagine the time saved for social teams.</p>
+
+  <figure>
+      <img src="/assets/img/config-demo-buzz.jpg" alt="Damien Correll and Lauren McCann demonstrating Figma Buzz.">
+      <figcaption>Damien Correll and Lauren McCann demonstrating Figma Buzz</figcaption>
+  </figure>
 
   <p>And the <strong>Content Seat</strong>? Love it. My content design colleagues often apologise for breaking layouts when they make edits in Figma. Now they don’t have to. It’s a small gesture, but one that signals a growing respect for content roles in design tooling — and that matters.</p>
 
@@ -55,13 +72,26 @@ tags:
 
   <p>Good to see Tom Giannattasio on stage again — I’m old enough to remember Macaw (and even Dylan Field’s tweet when Figma was first announced). The breakpoint management and animation triggers look really well thought through, and honestly, launching live sites straight from Figma <em>does</em> sound amazing.</p>
 
+  <figure>
+      <img src="/assets/img/config-demo-sites.jpg" alt="Tom Lowry demonstrating Figma Sites.">
+      <figcaption>Tom Lowry demonstrating Figma Sites</figcaption>
+  </figure>
+
   <p>Until you look at the code.</p>
+
+  <figure>
+      <img src="/assets/img/config-demo-sites-code.jpg" alt="An example of code from Practice Type Dot Com.">
+      <figcaption>An example of code from practice-type.com</figcaption>
+  </figure>
 
   <p>Accessibility advocate Schalk Neethling did just that in <span class="visually-hidden">(opens in new tab)</span><a href="https://youtu.be/6g-HxLhFHhc?si=PVhBnUU_3362RSwh" target="_blank" rel="noopener noreferrer">a quietly devastating review</a>, and… it’s not great. The HTML lacks semantic structure, has no headings, relies heavily on JavaScript, and is unusable with a keyboard or screen reader.</p>
   
-  <blockquote>
-    <p><strong>“It’s 2025, and we’re still seeing tools outputting code that doesn’t meet basic accessibility standards. That’s not progress.”</strong> – Schalk Neethling</p>
-  </blockquote>
+  <div class="inline-quote">
+    <blockquote>
+      <p>“It’s 2025, and we’re still seeing tools outputting code that doesn’t meet basic accessibility standards. That’s not progress.”</p> 
+      <footer>— <cite>Schalk Neethling</cite></footer>
+    </blockquote>
+  </div>
 
   <p>I took a look at one of the sites demoed during the keynote myself (<span class="visually-hidden">(opens in new tab)</span><a href="https://www.practice-type.com/" target="_blank" rel="noopener noreferrer">practice-type.com</a>) and found similar issues: no meaningful landmarks, poor focus management, and inaccessible interactions. This isn’t just suboptimal — it’s harmful. These are live URLs that will soon be indexed, linked, and referenced. They’ll be seen by non-technical users and assumed to be modern, best-practice outputs.</p>
   <p>They are not.</p>

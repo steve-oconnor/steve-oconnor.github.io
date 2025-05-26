@@ -157,9 +157,32 @@ small {
   color: var(--text-light);
 }
 
-.testimonials cite {
+.testimonials cite, .inline-quote cite {
   font-style: normal;
 }
+
+.inline-quote blockquote {
+  border-top: none;
+  border-bottom: none;
+  border-left: 2px solid var(--border);
+  margin: 2rem;
+  padding: 1rem 1.5rem 1.5rem;
+  border-radius: 0;
+  background-color: rgba(184, 210, 196, 0.2);
+}
+
+.inline-quote p {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.inline-quote footer {
+  font-style: normal;
+  font-size: 1.25rem;
+  color: var(--text-light);
+}
+
 
 
 
@@ -736,7 +759,10 @@ figure {
 }
 
 figure img {
-    max-height: 300px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 0 0;
 }
 
 .image-row {
@@ -760,8 +786,8 @@ figure img {
 }
 
 figcaption {
-  font-size: 0.762rem;
-  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding-top: 0.5rem;
   padding-left: 0.5rem;
   border-left: 2px solid #C8D6CF;
 }
