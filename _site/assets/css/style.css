@@ -183,14 +183,6 @@ small {
   color: var(--text-light);
 }
 
-
-
-
-p + ul,
-ul + h2 {
-  margin-top: 1rem;
-}
-
 .note {
   font-size: 1.25rem;
   background-color: var(--note-bg);
@@ -958,6 +950,10 @@ figcaption {
   .site-footer {
     flex-direction: column;
   }
+
+  .inline-quote p {
+    font-size: 1.375rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1014,6 +1010,22 @@ figcaption {
   .contact-links a {
     display: flex;
     flex-direction: row;
+  }
+
+  .inline-quote p {
+    font-size: 1.375rem;
+  }
+
+  .inline-quote blockquote {
+    margin: 2rem 0;
+  }
+
+  .inline-quote p {
+    font-size: 1.125rem;
+  }
+
+  .inline-quote footer {
+    font-size: 1rem;
   }
 }
 

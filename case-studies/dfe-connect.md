@@ -89,6 +89,6 @@ tags:
 
 </article>
 
-<nav aria-label="Page navigation">
+<nav class="page-nav" aria-label="Page navigation">
     <p><a href="/case-studies" class="button--secondary">← Back to Case Studies</a></p>
 </nav>
