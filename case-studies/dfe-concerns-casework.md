@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Designing clarity for complex casework
+title: DfE Concerns Casework - Designing clarity for complex casework
 permalink: /case-studies/dfe-concerns-casework/
 ---
 
 <article>
     
     <header class="article-header">
-        <h1>From friction to flow — A practical redesign for Mind’s website</h1>
+        <h1>DfE Concerns Casework - Designing clarity for complex casework</h1>
     </header>
 
     <h2><span class="highlight">Project overview</span></h2>
