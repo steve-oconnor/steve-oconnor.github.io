@@ -766,23 +766,18 @@ figure img {
 }
 
 .image-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.image-row figure {
-  flex: 1 1 300px;
-  margin: 0;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  overflow: visible;
 }
 
 .image-row img {
-  width: auto;
+  width: 100%;
   height: auto;
-  max-height: 220px;
-  display: block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 figcaption {
@@ -901,6 +896,7 @@ figcaption {
   hr {
     margin: 0 0;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -1014,6 +1010,10 @@ figcaption {
   .contact-links a {
     display: flex;
     flex-direction: row;
+  }
+
+  .tags li {
+    font-size: 0.875rem;
   }
 }
 

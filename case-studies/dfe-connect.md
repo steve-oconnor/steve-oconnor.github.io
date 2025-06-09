@@ -22,8 +22,10 @@ tags:
             <li>Naming</li>
         </ul>
     </header>
-    
-    <p class="intro">I worked as Interaction Designer on the Department for Education’s School Account project from August 2023 to June 2024. The project aimed to simplify how school business professionals access guidance, data, and digital tools. The service included a public-facing SaaS platform (later named DfE Connect) and an internal admin application used by civil servants to manage and publish task content.</p>
+
+    <div class="intro-wrapper">
+        <p>I worked as Interaction Designer on the Department for Education’s School Account project from August 2023 to June 2024. The project aimed to simplify how school business professionals access guidance, data, and digital tools. The service included a public-facing SaaS platform (later named DfE Connect) and an internal admin application used by civil servants to manage and publish task content.</p>
+    </div>
 
     <h2><span class="highlight">My role</span></h2>
     <p>I was part of a multi-disciplinary agile team working across both the public-facing interface and the internal Task and Service Index (TSI). My work included leading on the UI design and prototyping, information architecture, and documenting decisions in the team’s Design History. I also contributed to naming, design critique, and usability testing sessions with both internal and external users.</p>
@@ -35,10 +37,10 @@ tags:
 
     <figure class="image-group">
         <div class="image-row">
-            <img src="/assets/img/tsi_v1.png" alt="TSI task list showing metadata for each task.">
-            <img src="/assets/img/tsi_v1-task_details.png" alt="Task detail screen with service and task metadata.">
-            <img src="/assets/img/tsi_v1-add_a_task.png" alt="Form to add a task with contextual help.">
-            <img src="/assets/img/tsi_v1-add_a_task_check_details.png" alt="Review screen for submitting a new task.">
+            <img src="/assets/img/case-studies/connect/tsi_v1.png" alt="TSI task list showing metadata for each task.">
+            <img src="/assets/img/case-studies/connect/tsi_v1-task_details.png" alt="Task detail screen with service and task metadata.">
+            <img src="/assets/img/case-studies/connect/tsi_v1-add_a_task.png" alt="Form to add a task with contextual help.">
+            <img src="/assets/img/case-studies/connect/tsi_v1-add_a_task_check_details.png" alt="Review screen for submitting a new task.">
         </div>
         <figcaption>
             Early interface designs for the Task and Service Index — including task list, detail views, and the initial task creation workflow. I created these in Figma.
@@ -51,8 +53,8 @@ tags:
 
     <figure class="image-group">
         <div class="image-row">
-            <img src="/assets/img/Naming_Workshop_One.png" alt="Miro board from the first naming workshop where we reviewed what had been done so far and explored service traits.">
-            <img src="/assets/img/Naming_Workshop_Two.png" alt="Miro board from the second naming workshop.">
+            <img src="/assets/img/case-studies/connect/Naming_Workshop_One.png" alt="Miro board from the first naming workshop where we reviewed what had been done so far and explored service traits.">
+            <img src="/assets/img/case-studies/connect/Naming_Workshop_Two.png" alt="Miro board from the second naming workshop.">
         </div>
         <figcaption>
             Miro boards from the naming workshops. Members of the team used pre-prepared exercises to explore word association, synonyms, analogies, and metaphors, and to suggest names. 
