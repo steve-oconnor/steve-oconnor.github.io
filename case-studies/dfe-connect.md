@@ -71,6 +71,8 @@ permalink: /case-studies/dfe-connect/
     <h2><span class="highlight">What I learned</span></h2>
     <p>Designing across multiple service areas required balancing clarity for users with internal constraints — including policy, ownership, and legacy systems. The rebrand mid-project was a good test of adaptability, and reinforced the need to keep users anchored in what feels familiar. Internal-facing services deserve the same level of care and accessibility as public services — they may not be visible (to the public), but they’re no less critical.</p>
 
+    <p>This was a great example of a collaborative, systems-aware project, and is something I’d love to build on in future platform work.</p>
+
 </article>
 
 <nav class="page-nav" aria-label="Page navigation">
