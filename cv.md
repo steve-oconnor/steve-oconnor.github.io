@@ -5,26 +5,29 @@ permalink: /cv/
 ---
 
 <section class="intro-section">
+
   <h1>Steve O’Connor CV</h1>
   <div class="intro-wrapper">
   <p>Senior UX Designer with a thoughtful, user-first approach to crafting inclusive, intuitive digital services.</p>
   <p>Experienced in accessible design (WCAG/ARIA), design systems, and cross-functional collaboration within Agile teams.</p>
   <p>Skilled in prototyping, user research, journey mapping, and usability testing—with a grounding in interaction design, branding, and service design.</p>
   <p>Committed to continuous learning, mentoring others, and creating work that genuinely improves people’s experience.</p>
+
 </section>
 
 <section>
+
   <h2><span class="highlight">Core Skills</span></h2>
   <ul class="content-list">
     <li>Accessible Design (WCAG, ARIA)</li>
-    <li>User Experience (UX) & Interaction Design</li>
+    <li>User Experience (UX) & interaction design</li>
     <li>Prototyping (Figma, Axure, GOV.UK kit)</li>
-    <li>HTML/CSS collaboration & Front-End awareness</li>
+    <li>HTML/CSS collaboration & front-end awareness</li>
     <li>Design systems & pattern libraries</li>
     <li>Team mentoring & leadership</li>
     <li>Creative development & strategic thinking</li>
     <li>Agile development environments</li>
-    <li>User research & usability testing</li>
+    <li>User researcc & usability testing</li>
     <li>Journey mapping & service design</li>
     <li>Visual & brand identity design</li>
   </ul>
@@ -37,7 +40,7 @@ permalink: /cv/
   <p class="dates">(Mar 2024 — Present, Cambridge, UK)</p>
   <ul class="content-list">
     <li>Leading UX quality assurance initiatives and optimising cross-team collaboration.</li>
-    <li>>Championing accessible, user-first design practices aligned with WCAG standards.</li>
+    <li>Championing accessible, user-first design practices aligned with WCAG standards.</li>
     <li>Developing design systems to support scalable, inclusive product development</li>
     <li>Plus what I was doing as a Senior UX Designer.</li>
   </ul>
@@ -84,7 +87,7 @@ permalink: /cv/
   <h2><span class="highlight">Education & Certifications</span></h2>
   <ul class="content-list">
     <li>BA Hons in Graphic Design — University of Central Lancashire (Unfinished)</li>
-    <li>B-TEC Graphic Design - Southport Techical College (Distinction)</li>
+    <li>B-TEC Graphic Design - Southport Technical College (Distinction)</li>
   </ul>
 
 </section>
@@ -94,6 +97,7 @@ permalink: /cv/
   <h2><span class="highlight">What others say</span></h2>
 
   <div class="testimonials">
+
     <blockquote>
       <p>“Steve is one of the best UX designers I’ve had the pleasure of working with. He’s got a deep understanding of interaction design, always puts users first, and makes space for content design from day one.”</p>
       <footer>— <cite>Ivy Halstead-Dawber, Senior Content Designer, DfE</cite></footer>
