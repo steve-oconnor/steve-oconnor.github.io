@@ -410,7 +410,7 @@ a:hover, a:focus {
   top: 2px;
   bottom: 0;
   right: 1px;
-  width: -2px;
+  width: 2px;
   height: 2px;
   background-color: currentColor;
   transform: rotate(45deg);

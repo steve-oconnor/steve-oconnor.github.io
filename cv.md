@@ -37,7 +37,7 @@ permalink: /cv/
   <p class="dates">(Mar 2024 — Present, Cambridge, UK)</p>
   <ul class="content-list">
     <li>Leading UX quality assurance initiatives and optimising cross-team collaboration.</li>
-    <li>>Championing accessible, user-first design practices aligned with WCAG standards.</li>
+    <li>Championing accessible, user-first design practices aligned with WCAG standards.</li>
     <li>Developing design systems to support scalable, inclusive product development</li>
     <li>Plus what I was doing as a Senior UX Designer.</li>
   </ul>
@@ -84,7 +84,7 @@ permalink: /cv/
   <h2><span class="highlight">Education & Certifications</span></h2>
   <ul class="content-list">
     <li>BA Hons in Graphic Design — University of Central Lancashire (Unfinished)</li>
-    <li>B-TEC Graphic Design - Southport Techical College (Distinction)</li>
+    <li>B-TEC Graphic Design - Southport Technical College (Distinction)</li>
   </ul>
 
 </section>
