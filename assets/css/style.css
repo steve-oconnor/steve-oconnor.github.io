@@ -798,10 +798,14 @@ figcaption {
 .card {
   background-color: var(--card-bg);
   border-radius: 0 1rem 1rem 0;
-  padding: 1.5rem 2.5rem 2.5rem;
+  padding: 2.5rem 2.5rem;
   margin-bottom: 2rem;
   font-size: 1.14rem;
   border-left: 2px solid var(--border)
+}
+
+.card h2 {
+  margin: 0 0 0;
 }
 
 .card a {
