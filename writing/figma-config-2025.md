@@ -84,7 +84,7 @@ tags:
       <figcaption>An example of code from practice-type.com</figcaption>
   </figure>
 
-  <p>Accessibility advocate Schalk Neethling did just that in <span class="visually-hidden">(opens in new tab) </span><a href="https://youtu.be/6g-HxLhFHhc?si=PVhBnUU_3362RSwh" target="_blank" rel="noopener noreferrer">a quietly devastating review</a>, and… it’s not great. The HTML lacks semantic structure, has no headings, relies heavily on JavaScript, and is unusable with a keyboard or screen reader.</p>
+  <p>Accessibility advocate Schalk Neethling did just that in <span class="visually-hidden">(link opens in new tab) </span><a href="https://youtu.be/6g-HxLhFHhc?si=PVhBnUU_3362RSwh" target="_blank" rel="noopener noreferrer">a quietly devastating review</a>, and… it’s not great. The HTML lacks semantic structure, has no headings, relies heavily on JavaScript, and is unusable with a keyboard or screen reader.</p>
   
   <div class="inline-quote">
     <blockquote>
@@ -93,7 +93,7 @@ tags:
     </blockquote>
   </div>
 
-  <p>I took a look at one of the sites demoed during the keynote myself (<span class="visually-hidden">(opens in new tab)</span><a href="https://www.practice-type.com/" target="_blank" rel="noopener noreferrer">practice-type.com</a>) and found similar issues: no meaningful landmarks, poor focus management, and inaccessible interactions. This isn’t just suboptimal — it’s harmful. These are live URLs that will soon be indexed, linked, and referenced. They’ll be seen by non-technical users and assumed to be modern, best-practice outputs.</p>
+  <p>I took a look at one of the sites demoed during the keynote myself (<span class="visually-hidden">(link opens in new tab)</span><a href="https://www.practice-type.com/" target="_blank" rel="noopener noreferrer">practice-type.com</a>) and found similar issues: no meaningful landmarks, poor focus management, and inaccessible interactions. This isn’t just suboptimal — it’s harmful. These are live URLs that will soon be indexed, linked, and referenced. They’ll be seen by non-technical users and assumed to be modern, best-practice outputs.</p>
   <p>They are not.</p>
 
   <p>Now, to Figma’s credit: it’s still in beta. And perhaps we’re not meant to take this as “production ready”. But if that’s the case, it needs clearer boundaries. A walled garden. A big “not suitable for launch” banner. Otherwise, we’re polluting the web with auto-generated inaccessibility — and that’s not a good look.</p>

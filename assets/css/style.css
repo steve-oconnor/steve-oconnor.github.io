@@ -24,13 +24,13 @@
     --accent: #7FFFD4;
     --accent-dark: #50d0b4;
     --accent-bg: #34695E;
-    --bg: #091F15;
+    --bg: #111e18;
     --border: #223A2F;
     --card-bg: #10261C;
     --drop-shadow: #1a211d;
-    --header-hi: #5c5c2e;
+    --header-hi: rgba(92, 92, 46, 0.5);
     --note-bg: #4f695a;
-    --tag-bg: #5c5c2e;
+    --tag-bg: rgba(92, 92, 46, 0.5);
     --tag-text: #DBDB6E;
     --text: #BCD9C9;
     --text-light: #5D8F73;
@@ -63,7 +63,7 @@ html {
 }
 
 h1 {
-  font-size: 3.125rem;
+  font-size: 3.0625rem;
   font-weight: 700;
   line-height: 1.15;
   margin: 0 0 1rem;
@@ -75,7 +75,7 @@ h1.hello {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.4375rem;
   margin: 1rem 0 2rem;
   font-weight: 600;
   line-height: 1.25;
@@ -99,7 +99,7 @@ article h2 {
 
 h3 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.3;
   margin: 0.75rem 0 0.5rem;
 }
@@ -124,6 +124,11 @@ ul{
 article li {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+}
+
+.no-style-list {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 small {
@@ -945,7 +950,7 @@ figcaption {
   }
 
   section {
-    margin-: 3rem 0;
+    margin: 3rem 0;
   }
   .logo-grid {
     justify-content: flex-start;

@@ -2,92 +2,74 @@
 layout: default
 title: DfE Connect – Making school guidance easier to find
 permalink: /case-studies/dfe-connect/
-tags:
-  - interaction design
-  - public sector
-  - SaaS
-  - GDS Design System
-  - naming
+
 ---
 
 <article>
     
     <header class="article-header">
         <h1>DfE Connect - Making school guidance easier to find</h1>
-        <ul class="tags">
-            <li>Interaction Design</li>
-            <li>Public Sector</li>
-            <li>SaaS</li>
-            <li>GDS Design System</li>
-            <li>Naming</li>
-        </ul>
     </header>
 
-    <div class="intro-wrapper">
-        <p>I worked as Interaction Designer on the Department for Education’s School Account project from August 2023 to June 2024. The project aimed to simplify how school business professionals access guidance, data, and digital tools. The service included a public-facing SaaS platform (later named DfE Connect) and an internal admin application used by civil servants to manage and publish task content.</p>
-    </div>
+    <h2><span class="highlight">Project overview</span></h2>
 
-    <h2><span class="highlight">My role</span></h2>
-    <p>I was part of a multi-disciplinary agile team working across both the public-facing interface and the internal Task and Service Index (TSI). My work included leading on the UI design and prototyping, information architecture, and documenting decisions in the team’s Design History. I also contributed to naming, design critique, and usability testing sessions with both internal and external users.</p>
+    <p>DfE Connect (formerly ‘School Account’) is a secure platform that helps school business professionals and trust leaders access services and information in one place. I led the interaction and UI design for both the public-facing platform and an internal tool known as the Task and Service Index (TSI). I was part of the project team from August 2023 to June 2024.</p>
 
-    <h2><span class="highlight">Approach</span></h2>
+    <h2><span class="highlight">The problem</span></h2>
+    <p>Professionals working in schools often faced a confusing patchwork of digital services. There was no consistent way to sign in, browse available support, or complete key tasks. Some services were hidden behind internal jargon or based on knowledge of programme names, while others were task-based but difficult to find. For internal teams, this fragmentation created ongoing challenges around service ownership, duplication, and visibility.</p>
 
-    <h3>Prototype design for soft launch</h3>
-    <p>Our first priority was adapting Alpha-stage designs for use within the MYESF platform for a limited soft launch. Working closely with a content designer, I created a revised prototype in Figma and helped shape the language and approach used to contact pilot participants. This early release provided essential feedback from real users within technical constraints.</p>
+    <h2><span class="highlight">What I did</span></h2>
 
-    <figure class="image-group">
-        <div class="image-row">
-            <img src="/assets/img/case-studies/connect/tsi_v1.png" alt="TSI task list showing metadata for each task.">
-            <img src="/assets/img/case-studies/connect/tsi_v1-task_details.png" alt="Task detail screen with service and task metadata.">
-            <img src="/assets/img/case-studies/connect/tsi_v1-add_a_task.png" alt="Form to add a task with contextual help.">
-            <img src="/assets/img/case-studies/connect/tsi_v1-add_a_task_check_details.png" alt="Review screen for submitting a new task.">
-        </div>
-        <figcaption>
-            Early interface designs for the Task and Service Index — including task list, detail views, and the initial task creation workflow. I created these in Figma.
-        </figcaption>
-    </figure>
-
-
-    <h3>Shaping the service identity</h3>
-    <p>The service had no clear name, and previous naming workshops using the standard GDS methodology hadn’t been successful. I facilitated alternative workshops focused on word association and service traits, which led to five naming candidates being tested with users. One clear favourite emerged — <strong>DfE Connect</strong> — a name I had proposed. This gave the service a more recognisable identity and exposed issues in the underlying content model, which we began to address in the design.</p>
+    <p>I worked from early alpha through to private beta, leading on interaction design and collaborating closely with content designers, developers, policy teams, and other stakeholders.</p>
 
     <figure class="image-group">
         <div class="image-row">
-            <img src="/assets/img/case-studies/connect/Naming_Workshop_One.png" alt="Miro board from the first naming workshop where we reviewed what had been done so far and explored service traits.">
-            <img src="/assets/img/case-studies/connect/Naming_Workshop_Two.png" alt="Miro board from the second naming workshop.">
+            <img src="/assets/img/case-studies/connect/connect_alpha_task_list_MYESF.png" alt="Screenshot of the alpha DfE Connect release showing tiles for education and skills funding services, and a list of mandatory tasks with deadlines on the MYESF platform.">
+            <img src="/assets/img/case-studies/connect/connect_beta_initial_task_list.png" alt="Screenshot of the initial Mandatory Tasks screen in Beta, showing grouped task deadlines and links, with a message explaining the feature is in development.">
+            <img src="/assets/img/case-studies/connect/connect_beta_homepage.png" alt="Beta version of the DfE Connect homepage, showing task categories such as Buildings, Finance, and Governance, and a ‘What’s next’ panel with upcoming deadlines.">
+            <img src="/assets/img/case-studies/connect/connect_beta_school_census_task_page.png" alt="Screenshot of the School Census page in DfE Connect, listing pupil data tasks by due date, with guidance and related tasks.">
         </div>
         <figcaption>
-            Miro boards from the naming workshops. Members of the team used pre-prepared exercises to explore word association, synonyms, analogies, and metaphors, and to suggest names. 
+            Design evolution from Alpha to Beta — showing the progression from early prototypes to launched task views in DfE Connect.
         </figcaption>
     </figure>
 
-    <h3>Designing admin workflows for the internal tool</h3>
-    <p>The internal Task and Service Index was a deceptively complex admin tool used to manage and publish structured data. I designed:</p>
-    <ul>
-        <li>Flexible filtering and faceted search for task listings</li>
-        <li>A task creation flow with role-based permissions, audit trails, and approval steps</li>
-        <li>Interaction patterns for grouping, editing, and publishing task content</li>
-    </ul>
-    <p>All components were aligned with the GOV.UK Design System and adapted to support editorial governance workflows.</p>
+    <p>I helped shape and prototype a task-based index to make services easier to find and use. This involved exploring patterns for filtering by eligibility, improving onward journeys, and reducing confusion between similarly named services. I built prototypes in Figma rather than the GOV.UK Prototype Kit by request, we tested them with users internally and in schools and trusts, and refined the approach based on what we learned.</p>
 
-    <h3>Improving public-facing content and layouts</h3>
-    <p>I helped redesign the task list and guidance experience for the schools-facing side of the service — simplifying layouts, clarifying labels, and introducing task groupings to support findability. I also documented these changes in the Design History to support continuity across the team.</p>
+    <figure class="image-group">
+        <div class="image-row">
+            <img src="/assets/img/case-studies/connect/tsi_v1.png" alt="Table view of the Task Index, listing multiple tasks with columns for task name, theme, date, requirement, and display status.">
+            <img src="/assets/img/case-studies/connect/tsi_v1-task_details.png" alt="Detailed view of a task and its linked service in the TSI, displaying metadata including task type, themes, links, and intended audience.">
+            <img src="/assets/img/case-studies/connect/tsi_v1-add_a_task.png" alt="Form screen for adding a new task to the Task and Service Index, showing fields for task name, description, theme, due date, and support level.">
+            <img src="/assets/img/case-studies/connect/tsi_v1-add_a_task_check_details.png" alt="Review screen for a new task in the TSI, summarising all entered details before submission, including task name, description, themes, and due date.">
+        </div>
+        <figcaption>
+            Screens from the Task and Service Index (TSI) — an internal tool used to standardise how services are recorded and described. These views show the task creation flow, data structure, and index layout used by policy and service teams.
+        </figcaption>
+    </figure>
 
-    <h3>A mission patch for beta launch</h3>
-    <p>Mission patches are a beloved tradition on many government digital projects — a small creative flourish to mark key milestones. Before I left the team, I was asked to design one for our beta release.</p>
-    <p>Animals often feature in these patches, and I had a few options in mind. But after a chat with my Content Design colleague, we knew there was only one contender: Connie, the Connect chipmunk!</p>
-    <p>The final design featured Connie in a rocket, blasting off in celebration of our public beta. It added to the team's sense of shared achievement — and was a nice sticker for everyone's laptops.</p>
+    <p>As the service evolved, I also facilitated naming workshops to explore how it should be positioned. The <span class="visually-hidden">(link opens in new tab)</span><a href="https://www.gov.uk/service-manual/design/naming-your-service" target="_blank" rel="noopener noreferrer">standard GOV.UK naming model</a> didn’t fit this platform’s broader brief — it wasn’t a transactional service, but a gateway to many. I adapted naming activities to reflect this and ultimately proposed the name <strong>DfE Connect</strong>, which was adopted and launched with the Beta release.</p>
 
-    <h2><span class="highlight">Outcome</span></h2>
-    <ul>
-        <li><strong>Successful public beta</strong>: DfE Connect launched in April 2024 with an improved user interface and more structured internal publishing workflows.</li>
-        <li><strong>Improved clarity</strong>: Task grouping, simplified labelling, and a clearer IA helped users navigate more confidently.</li>
-        <li><strong>Reusable design work</strong>: Patterns and governance models developed during the project — including audit trail design and naming workshops — were referenced by other DfE teams.</li>
-        <li>The current iteration of DfE Connect has been rolled out successfully to a much higher number of schools and is receiving great feedback.</li>
-    </ul>
+    <figure class="image-group">
+        <div class="image-row">
+            <img src="/assets/img/case-studies/connect/Naming_Workshop_One.png" alt="Screenshot of an online whiteboard from the first naming workshop where we reviewed what had been done so far and explored service traits.">
+            <img src="/assets/img/case-studies/connect/Naming_Workshop_Two.png" alt="Screenshot of another online whiteboard from the second naming workshop showing rows of naming concepts, user journey references, and evaluation criteria for different name directions.">
+            <img src="/assets/img/case-studies/connect/connect_private_beta_launch_mission_patch.png" alt="Illustrated mission patch badge showing a smiling animal mascot in a rocket ship, labelled ‘School Account – DfE Connect Private Beta Launch – March 2024" style="border: none;">
+        </div>
+        <figcaption>
+            Naming workshop outputs and launch patch — Miro boards from facilitated naming sessions, where team members explored synonyms, metaphors, and associations to help define the service identity. The final name, DfE Connect, emerged from this process. Also shown: the private beta launch mission patch featuring Connie the Connect chipmunk.
+        </figcaption>
+    </figure>
 
-    <h2><span class="highlight">What stayed with me</span></h2>
-    <p>We weren’t just redesigning screens — we were helping a multi-layered service become understandable, manageable, and scalable. The process reminded me how useful lateral thinking can be when standard frameworks (like GDS naming) don’t quite fit the service context. I also saw first-hand how small IA decisions ripple through governance, naming, and user understanding.</p>
+    <p>The platform was designed to work with existing DfE credentials, allowing users to sign in and access personalised content and links to relevant services. While full single sign-on wasn’t in scope at this stage, we laid the groundwork for future integration by structuring user journeys and UI patterns in a way that could support it over time.</p>
+
+    <p>Alongside delivery, I contributed to the wider design community — including co-facilitating design workshops, supporting design ops documentation, and creating some (well-received!) visual artefacts like team mission patches.</p>
+
+    <h2><span class="highlight">The outcome</span></h2>
+    <p>The public-facing platform launched in June 2024 and is now in active iteration. Early feedback from policy colleagues and school users has apparently been positive, with usage data showing improvements in task completion and service discoverability. Internally, the new service index has become a clearer foundation for service planning and ownership, and hopefully the work influences wider platform design decisions.</p>
+
+    <h2><span class="highlight">What I learned</span></h2>
+    <p>Designing across multiple service areas required balancing clarity for users with internal constraints — including policy, ownership, and legacy systems. The rebrand mid-project was a good test of adaptability, and reinforced the need to keep users anchored in what feels familiar. Internal-facing services deserve the same level of care and accessibility as public services — they may not be visible (to the public), but they’re no less critical.</p>
 
 </article>
 
