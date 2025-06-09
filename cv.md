@@ -8,10 +8,11 @@ permalink: /cv/
 
   <h1>Steve O’Connor CV</h1>
   <div class="intro-wrapper">
-  <p>Senior UX Designer with a thoughtful, user-first approach to crafting inclusive, intuitive digital services.</p>
-  <p>Experienced in accessible design (WCAG/ARIA), design systems, and cross-functional collaboration within Agile teams.</p>
-  <p>Skilled in prototyping, user research, journey mapping, and usability testing—with a grounding in interaction design, branding, and service design.</p>
-  <p>Committed to continuous learning, mentoring others, and creating work that genuinely improves people’s experience.</p>
+    <p>Senior UX Designer with a thoughtful, user-first approach to crafting inclusive, intuitive digital services.</p>
+    <p>Experienced in accessible design (WCAG/ARIA), design systems, and cross-functional collaboration within Agile teams.</p>
+    <p>Skilled in prototyping, user research, journey mapping, and usability testing—with a grounding in interaction design, branding, and service design.</p>
+    <p>Committed to continuous learning, mentoring others, and creating work that genuinely improves people’s experience.</p>
+  </div>
 
 </section>
 

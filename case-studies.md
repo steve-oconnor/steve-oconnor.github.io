@@ -31,7 +31,7 @@ permalink: /case-studies/
     <ul class="tags">
       <li>UI Design</li>
       <li>Accessibility</li>
-      <i>Non-profit</li>
+      <li>Non-profit</li>
       <li>Donation Flows</li>
       <li>Co-design</li>
     </ul>
