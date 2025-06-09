@@ -8,10 +8,9 @@ permalink: /cv/
 
   <h1>Steve O’Connor CV</h1>
   <div class="intro-wrapper">
-    <p>Senior UX Designer with a thoughtful, user-first approach to crafting inclusive, intuitive digital services.</p>
-    <p>Experienced in accessible design (WCAG/ARIA), design systems, and cross-functional collaboration within Agile teams.</p>
-    <p>Skilled in prototyping, user research, journey mapping, and usability testing—with a grounding in interaction design, branding, and service design.</p>
-    <p>Committed to continuous learning, mentoring others, and creating work that genuinely improves people’s experience.</p>
+    <p>I design digital services that make life easier for the people who use them — especially when those services are complex or need to meet accessibility standards. Over the years, I’ve worked on everything from donation journeys to internal government platforms, usually as part of a cross-functional team.</p>
+    <p>I’m comfortable leading projects from early research through to delivery, and I care about doing the job properly — from getting the details right in a prototype to helping colleagues grow their skills.</p>
+    <p>Most recently, I’ve been focused on creating an inclusive design system to ensure projects start with a high level of accessibility built in, and on developing internal tools for a pharma client without losing sight of users’ needs.</p>
   </div>
 
 </section>
@@ -20,52 +19,61 @@ permalink: /cv/
 
   <h2><span class="highlight">Core Skills</span></h2>
   <ul class="content-list">
-    <li>Accessible Design (WCAG, ARIA)</li>
-    <li>User Experience (UX) & interaction design</li>
-    <li>Prototyping (Figma, Axure, GOV.UK kit)</li>
+    <li>Inclusive design (WCAG 2.2, ARIA, GDS standards)</li>
+    <li>Interaction design for complex public services</li>
+    <li>Prototyping with Figma, Axure, GOV.UK Prototype Kit</li>
+    <li>User research & usability testing</li>
+    <li>Cross-government collaboration</li>
+    <li>Design systems & pattern libraries (GDS, Figma, Zeroheight, Storybook)</li>
+    <li>Coaching, mentoring & team leadership</li>
+    <li>Agile & iterative delivery</li>
+    <li>Service design integration</li>
+    <li>Stakeholder engagement & design communication</li>
     <li>HTML/CSS collaboration & front-end awareness</li>
-    <li>Design systems & pattern libraries</li>
-    <li>Team mentoring & leadership</li>
-    <li>Creative development & strategic thinking</li>
-    <li>Agile development environments</li>
-    <li>User researcc & usability testing</li>
-    <li>Journey mapping & service design</li>
-    <li>Visual & brand identity design</li>
   </ul>
+
 </section>
 
 <section>
   <h2><span class="highlight">Experience</span></h2>
 
   <h3>Principal UX Designer, Nexer Digital</h3>
-  <p class="dates">(Mar 2024 — Present, Cambridge, UK)</p>
+  <p class="dates">Mar 2024 — Present</p>
   <ul class="content-list">
-    <li>Leading UX quality assurance initiatives and optimising cross-team collaboration.</li>
-    <li>Championing accessible, user-first design practices aligned with WCAG standards.</li>
-    <li>Developing design systems to support scalable, inclusive product development</li>
-    <li>Plus what I was doing as a Senior UX Designer.</li>
+    <li>Led design of end-to-end public and third-sector services from discovery to live</li>
+    <li>Ensured accessibility and inclusion are embedded throughout the service lifecycle.</li>
+    <li>Collaborated with service designers, developers, user researchers, content designers, to improve outcomes.</li>
+    <li>Provided coaching and mentoring to junior and mid-level designers.</li>
+    <li>Drove improvements in design operations and workflows, supporting sustainable service delivery.</li>
+    <li>Shaped and scaled inclusive design systems to support multi-team environments.</li>
   </ul>
 
   <h3>Senior UX Designer, Nexer Digital</h3>
-  <p class="dates">(Mar 2017 — Mar 2024, Cambridge, UK)</p>
+  <p class="dates">Mar 2017 — Mar 2024</p>
   <ul class="content-list">
-    <li>Delivered accessible, inclusive digital solutions for clients including the Department for Education (DfE), Mind, AstraZeneca, and Research Data Scotland</li>
-    <li>Conducted extensive user research, journey mapping, and iterative usability testing</li>
-    <li>Developed interactive prototypes in Figma and Axure to validate and enhance designs</li>
-    <li>Collaborated closely with product managers, developers, researchers in agile teams</li>
-    <li>Led the redesign of Mind charity’s donation flow—increasing online donations by 70%</li>
-    <li>Contributed to cross-gov initiatives, including design ops and the GDS Design System.</li>
+    <li>Delivered accessible and user-centred services for clients including:</li>
+      
+      <ul class="content-list-2">
+        <li><strong>Department for Education</strong> – supported delivery of internal and external services aligned to GDS standards.</li>
+        <li><strong>Mind</strong> – redesigned donation flows and information architecture, increasing online donations by 70%.</li>
+        <li><strong>Research Data Scotland, AstraZeneca</strong> – led research and iterative prototyping for complex user groups.</li>
+      </ul>
+
+    <li>Led user research synthesis, service mapping, and accessibility audits.</li>
+    <li>Contributed to enhancements in the GDS Design System and broader cross-government design communities.</li>
+    <li>Worked in agile, multidisciplinary teams with content designers, developers, researchers, and PMs</li>
   </ul>
 
   <h3>Lead Designer, Airsource</h3>
-  <p class="dates">(Sep 2010 — Mar 2017, Cambridge, UK)</p>
+  <p class="dates">Sep 2010 — Mar 2017</p>
   <ul class="content-list">
-    <li>Introduced structured UX and UI processes to a development-focused agency</li>
-    <li>Led mobile app and web interface redesigns improved client KPIs and user satisfaction</li>
-    <li>Developed brand and design system guidelines for mobile and digital products.</li>
+    <li>Introduced and embedded UX design practice within a mobile-first product agency.</li>
+    <li>Delivered interaction and visual design for clients including Merck, Sagentia, and Cambridge Medical Robotics.</li>
+    <li>Developed reusable UI components and design systems to accelerate delivery.</li>
+    <li>Hired and mentored a new designer to build internal capability.</li>
   </ul>
 
-   <h3>Director and Community Organiser, CamCreatives</h3>
+  <h3>Director and Community Organiser, CamCreatives</h3>
   <p class="dates">2006–present</p>
   <ul class="content-list">
     <li>Organise creative meetups, events for creative minds in Cambridge</li>
@@ -74,11 +82,11 @@ permalink: /cv/
 
   <h3>Earlier roles</h3>
   <ul class="content-list">
-    <li>Graphic and Web Design Consultant, stevethedesigner</li>
-    <li>Studio print and web designer at Cream Group Ltd.</li>
-    <li>Graphic and web design consultant at Guido Design</li>
-    <li>Graphic Designer at Logotron Ltd.</li>
-    <li>2D/3D Software trainer and design manager at Vellum Software UK Ltd.</li>
+    <li>Lecturer, Cambridge Regional College</li>
+    <li>Studio Designer, Cream Group Ltd.</li>
+    <li>Graphic and web design consultant, Guido Design</li>
+    <li>Graphic Designer, Logotron Ltd.</li>
+    <li>Design & Training Manager, Vellum Software UK Ltd.</li>
   </ul>
 
 </section>
