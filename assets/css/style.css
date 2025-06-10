@@ -487,6 +487,7 @@ a:hover, a:focus {
 
 
 /* Accessibility */
+
 .u-a11y {
   height: 1px;
   width: 1px;
@@ -494,6 +495,20 @@ a:hover, a:focus {
   clip: rect(1px 1px 1px 1px);
   clip-path: inset(50%);
   position: absolute !important;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 0.5rem;
+  background: var(--bg);
+  color: var(--accent);
+  text-decoration: none;
+  z-index: 1000;
+}
+.skip-link:focus {
+  top: 0;
 }
 
 

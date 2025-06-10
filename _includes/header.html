@@ -3,7 +3,7 @@
     
     <a href="{{ '/' | relative_url }}" class="logo_link">{{ site.title }}</a>
 
-    <button class="c-nav-hamburger" id="hamburger-nav-btn" aria-expanded="false" aria-controls="main-nav" aria-haspopup="true">
+    <button class="c-nav-hamburger" id="hamburger-nav-btn" aria-expanded="false" aria-controls="main-nav" aria-haspopup="true" aria-label="Open menu">
       <span class="u-a11y" id="hamburger-nav-open-close">Open</span>
       <span class="c-nav-hamburger__line c-nav-hamburger__line--1" aria-hidden="true"></span>
       <span class="c-nav-hamburger__text" id="hamburger-label">Menu</span>
@@ -13,10 +13,10 @@
 
     <nav id="main-nav" class="main-nav" aria-label="Main menu">
       <ul class="main-nav__list">
-        <li><a href="{{ '/case-studies/' | relative_url }}">Case Studies</a></li>
-        <li><a href="{{ '/writing/' | relative_url }}">Writing</a></li>
-        <li><a href="{{ '/resources/' | relative_url }}">Resources</a></li>
-        <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>            
+        <li><a href="{{ '/case-studies/' | relative_url }}" {% if page.url == '/case-studies/' %}aria-current="page"{% endif %}></a>>Case Studies</a></li>
+        <li><a href="{{ '/writing/' | relative_url }}" {% if page.url == '/writing/' %}aria-current="page"{% endif %}></a>>Writing</a></li>
+        <li><a href="{{ '/resources/' | relative_url }}" {% if page.url == '/resources/' %}aria-current="page"{% endif %}></a>>Resources</a></li>
+        <li><a href="{{ '/cv/' | relative_url }}" {% if page.url == '/cv/' %}aria-current="page"{% endif %}></a>>CV</a></li>            
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>

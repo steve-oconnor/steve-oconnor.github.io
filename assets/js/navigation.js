@@ -10,30 +10,28 @@ document.documentElement.classList.remove('no-js');
   let lastFocused = null;
 
   function closeNav() {
-    nav.classList.remove('nav--open');
-    toggleBtn.setAttribute('aria-expanded', 'false');
-    label.textContent = 'Menu';
-    srLabel.textContent = 'Open';
-    overlay.classList.remove('visible');
-    overlay.setAttribute('hidden', '');
-    if (lastFocused) lastFocused.focus();
+  nav.classList.remove('nav--open');
+  toggleBtn.setAttribute('aria-expanded', 'false');
+  toggleBtn.setAttribute('aria-label', 'Open menu');  // new line
+  label.textContent = 'Menu';
+  srLabel.textContent = 'Open';
+  ...
   }
 
   toggleBtn.addEventListener('click', function () {
-    const expanded = this.getAttribute('aria-expanded') === 'true';
-    this.setAttribute('aria-expanded', !expanded);
-    nav.classList.toggle('nav--open');
+  const expanded = this.getAttribute('aria-expanded') === 'true';
+  this.setAttribute('aria-expanded', !expanded);
+  nav.classList.toggle('nav--open');
 
-    if (!expanded) {
-      lastFocused = document.activeElement;
-      links[0].focus();
-      label.textContent = 'Close';
-      srLabel.textContent = 'Close';
-      overlay.classList.add('visible');
-      overlay.removeAttribute('hidden');
-    } else {
-      closeNav();
-    }
+  if (!expanded) {
+    ...
+    label.textContent = 'Close';
+    srLabel.textContent = 'Close';
+    this.setAttribute('aria-label', 'Close menu');   // new line
+    ...
+  } else {
+    closeNav();
+  }
   });
 
   // Trap focus inside the nav when open
