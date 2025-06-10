@@ -188,9 +188,6 @@ small {
   color: var(--text-light);
 }
 
-
-
-
 p + ul,
 ul + h2 {
   margin-top: 1rem;
@@ -203,20 +200,20 @@ ul + h2 {
 }
 
 .visually-hidden {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: hidden !important;
-    clip: rect(0 0 0 0) !important;
-    -webkit-clip-path: inset(50%) !important;
-    clip-path: inset(50%) !important;
-    border: 0 !important;
-    white-space: nowrap !important;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
@@ -458,6 +455,7 @@ a:hover, a:focus {
 .site-nav ul {
   list-style: none;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 1.2rem;
   margin: 0;
@@ -487,15 +485,6 @@ a:hover, a:focus {
 
 
 /* Accessibility */
-
-.u-a11y {
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px);
-  clip-path: inset(50%);
-  position: absolute !important;
-}
 
 .skip-link {
   position: absolute;
@@ -558,6 +547,11 @@ a:hover, a:focus {
   padding: 0;
   transition: opacity 0.2s ease;
 }
+
+.c-nav-hamburger .visually-hidden {
+  position: absolute;
+}
+
 
 /* === NAV DRAWER === */
 
