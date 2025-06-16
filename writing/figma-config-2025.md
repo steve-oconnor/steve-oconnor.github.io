@@ -23,7 +23,7 @@ tags:
   </header>
 
   <figure>
-      <img src="/assets/img/config_global_banner.png" alt="Banner image for Config Global. Figma's conference for people who build products. May 6-8, 2025. In-person & Virtual.">
+      <img src="/assets/img/writing/config/config_global_banner.png" alt="Banner image for Config Global. Figma's conference for people who build products. May 6-8, 2025. In-person & Virtual.">
   </figure>
 
   <p class="intro">I have a confession to make. I reacted to the Figma Config news before I’d actually watched the keynote.</p>
@@ -46,21 +46,21 @@ tags:
   <p>The new <strong>Grid</strong> updates are excellent — the ability to span cells and use grid within auto layout is exactly the kind of quality-of-life improvement that makes interface design faster, more consistent, and frankly less annoying. Giorgio’s description of layout as “a gravitational force... that is always there to make sure things stay in place” stuck with me. That’s what good layout tools should feel like: invisible until you need them, then quietly supportive.</p>
 
   <figure>
-      <img src="/assets/img/config-demo-grid.jpg" alt="Giorgio Caviglia demonstrating Figma Grid">
+      <img src="/assets/img/writing/config/config-demo-grid.jpg" alt="Giorgio Caviglia demonstrating Figma Grid">
       <figcaption>Giorgio Caviglia demonstrating Figma Grid</figcaption>
   </figure>
 
   <p><strong>Figma Make</strong> — yes, it’s an LLM feature, and yes, that’s a loaded space — but it looks useful. I’m genuinely curious to explore what it can do, and how much of the “clever faff” it can absorb without getting in the way of actual thinking. (Also, minor note: I really liked Holly Li’s shirt.)</p>
 
   <figure>
-      <img src="/assets/img/config-demo-make.jpg" alt="Holly Li demonstrating Figma Make.">
+      <img src="/assets/img/writing/config/config-demo-make.jpg" alt="Holly Li demonstrating Figma Make.">
       <figcaption>Holly Li demonstrating Figma Make</figcaption>
   </figure>
 
   <p><strong>Figma Buzz</strong> is Canva-ish, but in a way that makes sense. It lets visual designers create controlled templates with data injection (the CSV link is a really useful addition), and I can already imagine the time saved for social teams.</p>
 
   <figure>
-      <img src="/assets/img/config-demo-buzz.jpg" alt="Damien Correll and Lauren McCann demonstrating Figma Buzz.">
+      <img src="/assets/img/writing/config/config-demo-buzz.jpg" alt="Damien Correll and Lauren McCann demonstrating Figma Buzz.">
       <figcaption>Damien Correll and Lauren McCann demonstrating Figma Buzz</figcaption>
   </figure>
 
@@ -73,14 +73,14 @@ tags:
   <p>Good to see Tom Giannattasio on stage again — I’m old enough to remember Macaw (and even Dylan Field’s tweet when Figma was first announced). The breakpoint management and animation triggers look really well thought through, and honestly, launching live sites straight from Figma <em>does</em> sound amazing.</p>
 
   <figure>
-      <img src="/assets/img/config-demo-sites.jpg" alt="Tom Lowry demonstrating Figma Sites.">
+      <img src="/assets/img/writing/config/config-demo-sites.jpg" alt="Tom Lowry demonstrating Figma Sites.">
       <figcaption>Tom Lowry demonstrating Figma Sites</figcaption>
   </figure>
 
   <p>Until you look at the code.</p>
 
   <figure>
-      <img src="/assets/img/config-demo-sites-code.jpg" alt="An example of code from Practice Type Dot Com.">
+      <img src="/assets/img/writing/config/config-demo-sites-code.jpg" alt="An example of code from Practice Type Dot Com.">
       <figcaption>An example of code from practice-type.com</figcaption>
   </figure>
 

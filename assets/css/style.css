@@ -251,6 +251,27 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+a[target="_blank"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.3em;
+  background-color: currentColor;
+  mask-image: url('/assets/img/external-link.svg');
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+  -webkit-mask-image: url('/assets/img/icon-external_link.svg'); /* for Safari */
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+  vertical-align: middle;
+}
+
+/**/
+
+
 .dates {
   font-weight: 600;
   margin-top: 0;
