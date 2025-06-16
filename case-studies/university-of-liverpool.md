@@ -98,6 +98,7 @@ permalink: /case-studies/university-of-liverpool/
         <li>Brand elements carry more meaning when they’re embedded in structure, not just style</li>
         <li>Showing the why behind content decisions can create lasting change, even after the project ends</li>
         <li>A light but purposeful design system foundation can unlock a lot — without needing to solve everything at once.</li>
+        <li>Even in short engagements, investing in collaborative design thinking can leave a legacy. The most valuable thing we built wasn’t just the UI — it was momentum.</li>
     </ul>
 
 </article>

@@ -66,7 +66,7 @@ permalink: /case-studies/mind-website-redesign/
 
     <h2><span class="highlight">What I learned</span></h2>
 
-    <p>Even the most content-rich websites benefit from structural simplification — especially when users are emotionally overloaded. This project reinforced how crucial accessible interaction design is in the mental health space. It also reminded me that performance improvements often come from small, considered changes rather than big dramatic ones.</p>
+    <p>Even the most content-rich websites benefit from structural simplification — especially when users are emotionally overloaded. This project reinforced how crucial accessible interaction design is in the mental health space. It also reminded me that performance improvements often come from small, considered changes rather than big dramatic ones. And that’s something I carry forward — a belief that considered design, grounded in accessibility and empathy, is often the most impactful. Especially when people are at their most vulnerable, clarity becomes a form of care.</p>
 
     <p>Since the redesign Mind has gone through a brand redevelopment with branding agency DesignStudio. They kept the logo but changed fonts, and developed the colour palette and messaging. <span class="visually-hidden">(opens in new tab) </span><a href="https://www.mind.org.uk/" target="_blank" rel="noopener noreferrer">Take a look at the site now</a>.</p>
 

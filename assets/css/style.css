@@ -9,6 +9,7 @@
   --accent-bg: #7fffd4;
   --bg: #e6efea;
   --border: #C8D6CF;
+  --border-light: #D7E2DC;
   --card-bg: #f1faf5;
   --drop-shadow: #2a3d32;
   --header-hi: #f9e4c4;
@@ -17,6 +18,7 @@
   --tag-text: #644b20;
   --text: #344C60;
   --text-light: #257A4A;
+  --text-subtle: #596C7D;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +28,7 @@
     --accent-bg: #34695E;
     --bg: #111e18;
     --border: #223A2F;
+    --border-light: #192C23;
     --card-bg: #10261C;
     --drop-shadow: #1a211d;
     --header-hi: rgba(92, 92, 46, 0.5);
@@ -34,6 +37,7 @@
     --tag-text: #DBDB6E;
     --text: #BCD9C9;
     --text-light: #5D8F73;
+    --text-subtle: #7C8F84;
   }
 
   .light-only {
@@ -86,12 +90,25 @@ article h2 {
 }
 
 .highlight {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.8rem 0 0.4rem;
+  margin-left: -0.4rem;
   background: linear-gradient(transparent 60%, var(--header-hi) 60%);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  padding: 0 0.8rem 0 0.2rem;
-  margin-left: -0.2rem;
 }
+
+.highlight span[aria-hidden="true"] {
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    font-size: 2rem;
+    line-height: 1;
+    margin-left: -2.75rem;
+    pointer-events: none;
+}
+
 
 .section-heading {
   margin: 1rem 0 2rem 0;
@@ -262,20 +279,46 @@ a:hover, a:focus {
   margin-bottom: 0.25rem;
 }
 
-.resources-list {
-  list-style-type: none;
-  margin: 0 0 4rem 0;
+.section-summary {
+  margin: -1rem 0 2rem 0;
+  color: var(--text-subtle);
+}
+
+.resource-group {
+  margin: 0 0 3rem 0;
   padding: 0;
 }
 
-.resources-list li {
-  margin-bottom: 1rem;
-  line-height: 1.4;
+.resource-group dt {
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 1.5625rem;
 }
 
-.resources-list a {
+.resource-group dd {
+  margin: 0 0 1rem 1.5rem;
+  color: var(--text-subtle);
+}
+
+.resource-group dt a {
   font-weight: 600;
   color: var(--accent);
+  text-decoration: none;
+}
+
+.resource-group dt a:hover {
+  text-decoration: underline;
+  color: var(--accent-dark, #ED8A43);
+}
+
+section > h2:not(:first-of-type) {
+  border-top: 1px solid var(--border-light, #ddd);
+  padding-top: 3rem;
+  margin-top: 4rem;
+}
+
+.resource-group dt:not(:first-of-type) {
+  margin-top: 1.5rem;
 }
 
 .logo_link {

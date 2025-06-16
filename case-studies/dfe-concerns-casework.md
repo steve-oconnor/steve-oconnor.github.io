@@ -74,7 +74,7 @@ permalink: /case-studies/dfe-concerns-casework/
 
     <h2><span class="highlight">What I learned</span></h2>
 
-    <p>This was one of the most collaborative, high-pressure projects I’ve worked on. The pace of weekly testing and iteration during Alpha sharpened my ability to make quick, clear design decisions based on real feedback. In Beta, I saw how important it is to respect — and work with — people’s existing processes when designing change. We weren’t just redesigning a tool, but building confidence and trust in a better way of working.</p>
+    <p>This was one of the most collaborative, high-pressure projects I’ve worked on. The pace of weekly testing and iteration during Alpha sharpened my ability to make quick, clear design decisions based on real feedback. In Beta, I saw how important it is to respect — and work with — people’s existing processes when designing change. We weren’t just redesigning a tool, but building confidence and trust in a better way of working. It was a reminder that sometimes the real design work happens between the pixels — in how you listen, how you shape conversations, and how you respect the emotional complexity of the service you're supporting.</p>
 
 </article>
 

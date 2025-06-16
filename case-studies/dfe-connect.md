@@ -75,7 +75,7 @@ permalink: /case-studies/dfe-connect/
 
     <p>This was a great example of a collaborative, systems-aware project, and is something I’d love to build on in future platform work.</p>
 
-    <p>This project also reinforced something I’ve always believed: that good design is about building trust — not just with users, but with the people you work alongside. Whether that was shaping journeys, naming a service, or just showing up consistently in community spaces, I tried to create value in small ways as well as big decisions.</p>
+    <p>This project reinforced something I’ve always believed: that good design builds trust — not just with users, but with teammates and stakeholders. It also reminded me that considered design in complex systems isn’t always showy. Sometimes, it’s the quiet decisions — clearer links, better naming, smoother flows — that help people feel less overwhelmed and more in control.</p>
 
 </article>
 
