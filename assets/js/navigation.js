@@ -10,29 +10,33 @@ document.documentElement.classList.remove('no-js');
   let lastFocused = null;
 
   function closeNav() {
-  nav.classList.remove('nav--open');
-  toggleBtn.setAttribute('aria-expanded', 'false');
-  toggleBtn.setAttribute('aria-label', 'Open menu');  // new line
-  label.textContent = 'Menu';
-  srLabel.textContent = 'Open';
-  ...
+    nav.classList.remove('nav--open');
+    overlay.classList.remove('visible'); // ✅ Add this here
+    toggleBtn.setAttribute('aria-expanded', 'false');
+    toggleBtn.setAttribute('aria-label', 'Open menu');
+    label.textContent = 'Menu';
+    srLabel.textContent = 'Open';
+    lastFocused?.focus();
   }
 
   toggleBtn.addEventListener('click', function () {
-  const expanded = this.getAttribute('aria-expanded') === 'true';
-  this.setAttribute('aria-expanded', !expanded);
-  nav.classList.toggle('nav--open');
+    const expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', !expanded);
+    nav.classList.toggle('nav--open');
 
-  if (!expanded) {
-    ...
-    label.textContent = 'Close';
-    srLabel.textContent = 'Close';
-    this.setAttribute('aria-label', 'Close menu');   // new line
-    ...
-  } else {
-    closeNav();
-  }
+    if (!expanded) {
+      lastFocused = document.activeElement;
+      nav.classList.add('nav--open');
+      overlay.classList.add('visible'); // ✅ Add this here
+      label.textContent = 'Close';
+      srLabel.textContent = 'Close';
+      this.setAttribute('aria-label', 'Close menu');
+      nav.querySelector('a')?.focus();
+    } else {
+      closeNav();
+    }
   });
+
 
   // Trap focus inside the nav when open
   document.addEventListener('keydown', function (e) {
