@@ -57,6 +57,8 @@ permalink: /resources/
 
   <p class="section-summary">Thinking through the hype: how to work with AI and LLMs in a way that supports creativity and inclusion.</p>
   <dl class="resource-group">
+    <dt><a href="https://ai.gov.uk/">The UK Government's Incubator for Artificial Intelligence</a></dt>
+    <dt><a href="https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government">The AI Playbook for the UK Government</a></dt>
     <dt><a href="https://uxdesign.cc/ai-pace-layers-530c19e3f9b0">Sean Savage – AI Pace Layers</a></dt>
     <dd>An interesting metaphor for how to think about AI’s layers of change</dd>
     <dt><a href="https://www.nngroup.com/articles/ai-accessibility/">Norman Nielsen Group – Accessibility in the Age of AI</a></dt>
