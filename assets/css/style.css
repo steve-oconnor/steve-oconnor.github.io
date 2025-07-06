@@ -13,6 +13,7 @@
   --card-bg: #f1faf5;
   --drop-shadow: #2a3d32;
   --header-hi: #f9e4c4;
+  --icons: #b27f33;
   --note-bg: #b6e7d7;
   --tag-bg: #f9e4c4;
   --tag-text: #644b20;
@@ -900,29 +901,63 @@ figcaption {
 
 .site-footer {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  align-items:center;
   max-width: 900px;
   padding: 2rem 0;
   margin: 0 auto;
-  text-align: center;
   color: var(--text);
-  background-color: var(--bg);
-}
-
-.site-footer p {
-  font-size: 1rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .contact-links {
-  font-size: 1.5625rem;
   display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 1.5625rem;
+  width: 100%;
+}
+
+.contact-label {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-size: 0.875em;
+  color: var(--text);
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.footer-icon {
+  fill: var(--text-subtle);
+  width: 32px;
+  height: 32px;
+}
+
+.footer-icon--lrg {
+  fill: var(--text-subtle);
+  width: 40px;
+  height: 40px;
+}
+
+.messages {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.messages p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 

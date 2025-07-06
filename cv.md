@@ -6,11 +6,10 @@ permalink: /cv/
 
 <section class="intro-section">
 
-  <h1>Steve O’Connor CV</h1>
+  <h1>Steve O’Connor</h1>
+  <p><strong>Principal UX & Interaction Designer, Accessibility & Inclusive Design Systems, Team Leader</strong></p>
   <div class="intro-wrapper">
-    <p>I design digital services that make life easier for the people who use them — especially when those services are complex or need to meet accessibility standards. Over the years, I’ve worked on everything from donation journeys to internal government platforms, usually as part of a cross-functional team.</p>
-    <p>I’m comfortable leading projects from early research through to delivery, and I care about doing the job properly — from getting the details right in a prototype to helping colleagues grow their skills.</p>
-    <p>Most recently, I’ve been focused on creating an inclusive design system to ensure projects start with a high level of accessibility built in, and on developing internal tools for a pharma client without losing sight of users’ needs.</p>
+    <p>Experienced Principal UX Designer blending strategic leadership with hands-on delivery. Specialist in accessible, inclusive digital services for public, charity, education, and healthcare sectors. Proven impact through design system creation, interaction design, and user-centred service delivery.</p>
   </div>
 
 </section>
@@ -19,17 +18,14 @@ permalink: /cv/
 
   <h2><span class="highlight">Core Skills</span></h2>
   <ul class="content-list">
-    <li>Inclusive design (WCAG 2.2, ARIA, GDS standards)</li>
-    <li>Interaction design for complex public services</li>
-    <li>Prototyping with Figma, Axure, GOV.UK Prototype Kit</li>
-    <li>User research & usability testing</li>
-    <li>Cross-government collaboration</li>
-    <li>Design systems & pattern libraries (GDS, Figma, Zeroheight, Storybook)</li>
-    <li>Coaching, mentoring & team leadership</li>
-    <li>Agile & iterative delivery</li>
-    <li>Service design integration</li>
-    <li>Stakeholder engagement & design communication</li>
-    <li>HTML/CSS collaboration & front-end awareness</li>
+    <li><strong>Inclusive design:</strong> WCAG 2.2, ARIA, GDS standards</li>
+    <li><strong>Design systems:</strong> Figma, Zeroheight, Storybook, GDS, scalable pattern libraries</li>
+    <li><strong>UX & interaction design:</strong> complex user journeys, public and charity sectors</li>
+    <li><strong>Prototyping:</strong> Figma, Axure, GOV.UK Prototype Kit</li>
+    <li><strong>User research & testing:</strong> usability testing, synthesis, accessibility audits</li>
+    <li><strong>Leadership:</strong> team mentoring, coaching, design ops</li>
+    <li><strong>Collaboration:</strong> agile delivery, cross-disciplinary teamwork, stakeholder engagement</li>
+    <li><strong>Front-end awareness:</strong> HTML/CSS collaboration.</li>
   </ul>
 
 </section>
@@ -37,66 +33,67 @@ permalink: /cv/
 <section>
   <h2><span class="highlight">Experience</span></h2>
 
-  <h3>Principal UX Designer, Nexer Digital</h3>
-  <p class="dates">Mar 2024 — Present</p>
+  <h3>Principal UX Designer — Nexer Digital</h3>
+  <p class="dates">Mar 2024 — June 2025</p>
   <ul class="content-list">
-    <li>Led design of end-to-end public and third-sector services from discovery to live</li>
-    <li>Ensured accessibility and inclusion are embedded throughout the service lifecycle.</li>
-    <li>Collaborated with service designers, developers, user researchers, content designers, to improve outcomes.</li>
-    <li>Provided coaching and mentoring to junior and mid-level designers.</li>
-    <li>Drove improvements in design operations and workflows, supporting sustainable service delivery.</li>
-    <li>Shaped and scaled inclusive design systems to support multi-team environments.</li>
+    <li>Lead UX strategy and delivery across public, charity, education, and healthcare services.</li>
+    <li>Shaped and scaled inclusive design systems supporting multi-team environments.</li>
+    <li>Embedded WCAG 2.2 and GDS standards ensuring accessible product lifecycles.</li>
+    <li>Mentored junior and mid-level designers, strengthening internal capability.</li>
+    <li>Supported proposal development and early-stage client engagement.</li>
+    <li>Drove improvements in design ops to optimise sustainable delivery.</li>
   </ul>
 
-  <h3>Senior UX Designer, Nexer Digital</h3>
+  <h3>Senior UX Designer — Nexer Digital</h3>
   <p class="dates">Mar 2017 — Mar 2024</p>
   <ul class="content-list">
-    <li>Delivered accessible and user-centred services for clients including:</li>
-      
-      <ul class="content-list-2">
-        <li><strong>Department for Education</strong> – supported delivery of internal and external services aligned to GDS standards.</li>
-        <li><strong>Mind</strong> – redesigned donation flows and information architecture, increasing online donations by 70%.</li>
-        <li><strong>Research Data Scotland, AstraZeneca</strong> – led research and iterative prototyping for complex user groups.</li>
-      </ul>
-
-    <li>Led user research synthesis, service mapping, and accessibility audits.</li>
-    <li>Contributed to enhancements in the GDS Design System and broader cross-government design communities.</li>
-    <li>Worked in agile, multidisciplinary teams with content designers, developers, researchers, and PMs</li>
+    <li>Redesigned Mind’s donation flow, achieving a <strong>70% increase</strong> in online contributions.</li>
+    <li>Delivered accessible, user-centred services for Department for Education, Research Data Scotland, AstraZeneca, NIHR, Sanger, NCC Group, and others.</li>
+    <li>Created and evolved design systems and pattern libraries aligned to client needs.</li>
+    <li>Led user research synthesis, service mapping, and iterative prototyping for complex B2B and B2C products and services.</li>
+    <li>Contributed to cross-government design communities and GDS Design System enhancements, including designing the latest <span class="visually-hidden">(link opens in new tab)</span><a href="https://design-system.service.gov.uk/components/tag/" target="_blank" rel="noopener noreferrer">Tag</a> component, and co-designing the <span class="visually-hidden">(link opens in new tab)</span><a href="https://design-system.service.gov.uk/components/task-list/" target="_blank" rel="noopener noreferrer">Task List</a> component and <span class="visually-hidden">(link opens in new tab)</span><a href="https://design-system.service.gov.uk/patterns/complete-multiple-tasks/" target="_blank" rel="noopener noreferrer">Complete multiple tasks</a> pattern.</li>
+    <li>Balanced multiple concurrent workstreams, ensuring alignment to product goals and team wellbeing.</li>
+    
   </ul>
 
-  <h3>Lead Designer, Airsource</h3>
+  <h3>Lead Designer — Airsource</h3>
   <p class="dates">Sep 2010 — Mar 2017</p>
   <ul class="content-list">
-    <li>Introduced and embedded UX design practice within a mobile-first product agency.</li>
-    <li>Delivered interaction and visual design for clients including Merck, Sagentia, and Cambridge Medical Robotics.</li>
+    <li>Established and embedded UX / UI design in a development-led agency.</li>
+    <li>Delivered interaction and visual design for clients including Merck, Cambridge Medical Robotics, Linde, Ilika, CSIRO, and Sagentia.</li>
     <li>Developed reusable UI components and design systems to accelerate delivery.</li>
-    <li>Hired and mentored a new designer to build internal capability.</li>
-  </ul>
-
-  <h3>Director and Community Organiser, CamCreatives</h3>
-  <p class="dates">2006–present</p>
-  <ul class="content-list">
-    <li>Organise creative meetups, events for creative minds in Cambridge</li>
-    <li>Support local collaboration, mentoring, and creative careers</li>
+    <li>Increased sales of company-owned apps by combining targeted marketing strategies with design improvements, successfully winning over four hard-to-convince clients.</li>
+    <li>Hired and mentored a second designer to expand team capability.</li>
   </ul>
 
   <h3>Earlier roles</h3>
   <ul class="content-list">
-    <li>Lecturer, Cambridge Regional College</li>
-    <li>Studio Designer, Cream Group Ltd.</li>
-    <li>Graphic and web design consultant, Guido Design</li>
-    <li>Graphic Designer, Logotron Ltd.</li>
-    <li>Design & Training Manager, Vellum Software UK Ltd.</li>
+    <li>Lecturer — Cambridge Regional College</li>
+    <li>Studio Designer — Cream Group Ltd.</li>
+    <li>Freelance Design Consultant</li>
+    <li>Design & Training Manager — Vellum Software UK Ltd.</li>
   </ul>
 
 </section>
 
 <section>
 
-  <h2><span class="highlight">Education & Certifications</span></h2>
+  <h2><span class="highlight">Volunteering</span></h2>
+  <h3>Director & Organiser — CamCreatives CIC</h3>
+  <p class="dates">Feb 2008 — Present</p>
   <ul class="content-list">
-    <li>BA Hons in Graphic Design — University of Central Lancashire (Unfinished)</li>
-    <li>B-TEC Graphic Design - Southport Technical College (Distinction)</li>
+    <li>Organise events supporting the creative sector in Cambridgeshire, including speaker panels and workshops.</li>
+    <li>Advocate for inclusive design and creative entrepreneurship</li>
+  </ul>
+
+</section>
+
+<section>
+
+  <h2><span class="highlight">Education</span></h2>
+  <ul class="content-list">
+    <li><strong>BTEC Graphic Design (Merit/Distinction)</strong> — Southport Technical College</li>
+    <li><strong>BA Hons Graphic Design & Illustration (Incomplete)</strong> — University of Central Lancashire</li>
   </ul>
 
 </section>
